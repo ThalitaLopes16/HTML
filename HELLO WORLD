@@ -1,0 +1,15 @@
+<htm1>
+<h1 style= "border:1px solid red">
+hello world!
+</h1>
+
+
+<button onclick="main()">BOTAO1</button>
+<a href="https://www.youtube.com/">ir para youtube</a>
+<script>
+function main(){
+window.alert("pagina criada com sucesso")
+}
+</script>
+
+</htm1>
