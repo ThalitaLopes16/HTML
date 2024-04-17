@@ -9,14 +9,14 @@
         {
             $login = this.FORM1.fLogin.value;
             $senha = this.FORM1.fSenha.value;
-            $qtdCaracteres_login = $login.length;
-            $qtdCaracteres_senha = $senha.length;
+            $qtdCaracteres_login = $login;
+            $qtdCaracteres_senha = $senha;
 
-            if($qtdCaracteres_login = "Senai" || $qtdCaracteres_senha == "Sumare")
+            if($login = "Senai" && $senha == "Sumare")
             {
                 document.write("BEM-VINDO")  
             }
-            else($qtdCaracteres_login != "Senai" || $qtdCaracteres_senha != "Sumare")
+            else ($login != "Senai" || $senha != "Sumare")
             {
                 alert("LOGIN OU SENHA INVÁLIDO")  
             }
