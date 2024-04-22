@@ -4,7 +4,7 @@
     <script>
         function Validar()
         {
-           $frutas = "x "
+           $frutas = "Frutas: "
            if (this.form1.Banana.checked)
            {
             $frutas = $frutas + " Banana "
