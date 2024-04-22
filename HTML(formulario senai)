@@ -1,0 +1,239 @@
+Página 1(ACESSO)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar()
+        {
+            $login = this.FORM1.fLogin.value;
+            $senha = this.FORM1.fSenha.value;
+            $qtdCaracteres_login = $login;
+            $qtdCaracteres_senha = $senha;
+
+            if($login = "Senai" && $senha == "Sumare")
+            {  
+                window.location.href = "index1.html"
+            }
+            else 
+            {
+                alert("LOGIN OU SENHA INVÁLIDO")  
+            }
+             
+            
+            return false;
+        }
+
+        
+    </script>
+</head>
+<body>
+
+    <img src="senai.jpeg" width='10%'><br>
+
+    <form name="FORM1" action="" method="Post" onsubmit="return Validar()">
+        LOGIN:<input type="text" name="fLogin"><br>
+        SENHA:<input type="text" name="fSenha"><br>
+                <input type="submit" value="Gravar">
+                <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Página 2(ERRO)
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Acesso negado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+</head>
+<body>
+    <center>
+    <h1>Acesso negado <br> Volte para página inicial</h1>
+    </center>
+    <center>
+    <img src="acessonegado.jpg" width="20%">
+    </center>
+    <center>
+    <button id="meuBotao">Clique aqui e tente novamente</button>
+    </center>
+    <script src="script.js"></script>
+    <script>
+  
+var meuBotao = document.getElementById('meuBotao');
+
+meuBotao.addEventListener('click', function() {
+
+    window.location.href = 'index.html';
+});
+    </script>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Página 3 (ACERTO)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validar() {
+
+            $nome = this.form1.fNome.value;
+            $idade = this.form1.fIdade.value;
+            $sexo = this.form1.fSexo.value;
+            $curso = this.form1.fCurso.value;
+            $turno = this.form1.fTurno.value;
+            $professor1 = this.form1.fProfessor1.value;
+            $professor2 = this.form1.fProfessor2.value;
+
+            $disciplinas = ""
+
+           /*
+            $disc_html = this.form1.HTML.checked;
+            $disc_html = this.form1.JavaSript.checked;
+            $disc_html = this.form1.Arduino.checked;
+            $disc_html = this.form1.Lógica.checked;
+            $disc_html = this.form1.Gestalt.checked;
+            */
+
+            if(this.form1.HTML.checked) 
+            {
+                $disciplinas = $disciplinas + " HTML "
+            }
+
+            if(this.form1.JavaSript.checked) 
+            {
+                $disciplinas = $disciplinas + " JavaSript "
+            }
+
+            if(this.form1.Arduino.checked) 
+            {
+                $disciplinas = $disciplinas + " Arduino "
+            }
+
+
+            if(this.form1.Lógica.checked) 
+            {
+                $disciplinas = $disciplinas + " Lógica "
+            }
+
+            if(this.form1.Gestalt.checked) 
+            {
+                $disciplinas = $disciplinas + " Gestalt "
+            }
+
+
+            $qtdCaracteres_nome = $nome.length;
+            $qtdCaracteres_idade = $idade.length;
+
+            if ($qtdCaracteres_nome < 1) {
+                alert("Por favor digite seu nome")
+            }
+
+            if ($qtdCaracteres_idade < 1) {
+                alert("Por favor digite sua idade")
+            }
+
+            document.write("<font color='black' size='5'>Cadrastro concluído com sucesso! </font>")
+            document.write("<br><br>")
+            document.write("<font color='black' size='5'>Essas foram as informações fornecidas:</font>")
+            document.write("<br>")
+            document.write("<b>Nome: </b>" + $nome)
+            document.write("<br>")
+            document.write("<b>Idade: </b>" + $idade)
+            document.write("<br>")
+            document.write("<b>Sexo: </b>" + $sexo)
+            document.write("<br>")
+            document.write("<b>Curso: </b>" + $curso)
+            document.write("<br>")
+            document.write("<b>Turno: </b>" + $turno)
+            document.write("<br>")
+            document.write("<b>Professor 1: </b>" + $professor1)
+            document.write("<br>")
+            document.write("<b>Professor 2: </b>" + $professor2)
+            document.write("<br>")
+            document.write("<b>Disciplina: </b>" + $disciplinas )
+            return false;
+        }
+
+    </script>
+</head>
+
+<body>
+    <form name="form1" action="" method="post" onsubmit="return Validar()">
+        <font color="red" size="7">
+            <center>
+                BEM-VINDO(A)!
+                <br>
+                FORMULÁRIO
+                <br>
+            </center>
+        </font>
+
+        NOME: <input type="text" name="fNome"><br><br>
+        IDADE: <input type="text" name="fIdade">
+        SEXO:
+        Masculino: <input type="radio" name="fSexo" value="masculino">
+        Feminino: <input type="radio" name="fSexo" value="feminino">
+        <br><br>
+        CURSO:
+        <select name="fCurso" id="">
+            <option value="emBranco"> Escolha uma opção abaixo</option>
+            <option value="DS"> DS</option>
+            <option value="Mecânica"> Mecânica</option>
+            <option value="Solda"> Solda</option>
+        </select>
+        TURNO:
+        <select name="fTurno" id="">
+            <option value="emBranco"> Escolha uma opção abaixo</option>
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite"> Noite</option>
+            <option value="Integral"> Integral</option>
+        </select> <br><br>
+        PROFESSOR 1:</b>
+        <select name="fProfessor1" id="">
+            <option value="emBranco"> Escolha uma opção abaixo</option>
+            <option value="Calu">Calu</option>
+            <option value="Ricardo"> Ricardo</option>
+        </select>
+        PROFESSOR 2:
+        <select name="fProfessor2" id="">
+            <option value="emBranco"> Escolha uma opção abaixo</option>
+            <option value="Calu">Calu</option>
+            <option value="Ricardo"> Ricardo</option>
+        </select> <br><br>
+
+        DISCIPLINA QUE MAIS GOSTA:
+        <br>
+
+        <input type="checkbox" name="HTML">
+        <label for="vehicle1"> HTML</label><br>
+
+        <input type="checkbox" name="JavaSript">
+        <label for="vehicle2"> JavaSript</label><br>
+
+        <input type="checkbox" name="Arduino">
+        <label for="vehicle3"> Arduino</label><br>
+
+        <input type="checkbox" name="Lógica">
+        <label for="vehicle1"> Lógica</label><br>
+
+        <input type="checkbox" name="Gestalt">
+        <label for="vehicle2"> Gestalt</label><br>
+
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+</body>
+
+</html>
