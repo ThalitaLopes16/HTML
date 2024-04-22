@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function Validar()
+        {
+           $frutas = "x "
+           if (this.form1.Banana.checked)
+           {
+            $frutas = $frutas + " Banana "
+           }
+
+           if (this.form1.Maçã.checked)
+           {
+            $frutas = $frutas + " Maçã "
+           }
+
+           if (this.form1.Uva.checked)
+           {
+            $frutas = $frutas + " Uva "
+           }
+
+           if (this.form1.Pêra.checked)
+           {
+            $frutas = $frutas + " Pêra "
+           }
+
+           if (this.form1.Abacate.checked)
+           {
+            $frutas = $frutas + " Abacate "
+           }
+           
+           if (this.form1.Manga.checked)
+           {
+            $frutas = $frutas + " Manga "
+           }
+
+           //alert("Cheguei aqui!")
+
+           document.write($frutas)
+           return false;
+
+        }
+    </script>
+</head>
+<body>
+
+<font color="black" size="6">
+    ESCOLHA UMA FRUTA:
+ </font>
+ <br><br>
+
+ <form name ="form1" action="" nethod="post" onsubmit="return Validar()">
+  <input type="checkbox" name="Banana" value="Banana">
+  <label for="vehicle1"> Banana</label><br>
+  <input type="checkbox" id="vehicle2" name="Maçã" value="Maçã">
+  <label for="vehicle2"> Maçã</label><br>
+  <input type="checkbox" id="vehicle3" name="Uva" value="Uva">
+  <label for="vehicle3"> Uva</label><br>
+  <input type="checkbox" id="vehicle1" name="Pêra" value="Pêra">
+  <label for="vehicle1"> Pêra</label><br>
+  <input type="checkbox" id="vehicle2" name="Abacate" value="Abacate">
+  <label for="vehicle2"> Abacate</label><br>
+  <input type="checkbox" id="vehicle3" name="Manga" value="Manga">
+  <label for="vehicle3"> Manga</label><br><br>
+  <input type="submit" value="Gravar">
+  <input type="hidden" name="fCurso" value="DS">
+</form> 
+
+</body>
+</html>
