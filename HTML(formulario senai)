@@ -19,7 +19,7 @@ Página 1(ACESSO)
             }
             else 
             {
-                alert("LOGIN OU SENHA INVÁLIDO")  
+                window.location.href = "index2.html"  
             }
              
             
