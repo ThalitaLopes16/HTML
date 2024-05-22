@@ -1,0 +1,105 @@
+pagina 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#F0FFF0">
+    <font color="black" size="6">
+        <center>
+            PREVENÇÃO INTERNA À ACIDENTES NO TRABALHO
+        </center>
+    </font>
+    <br>
+    <center>
+        <img src="sipat.png" width="20%">
+    </center>
+    <br>
+    <font color="black" size="5">
+        <center>
+            Quem somos ?
+            <br>
+            A sigla SIPAT significa Semana Interna de Prevenção de Acidentes do Trabalho. Representa o evento onde atividades direcionadas à prevenção de acidentes do trabalho e doenças ocupacionais são realizadas. A SIPAT é uma atividade obrigatória para todas as CIPAs, conforme inciso IX, do art.
+        </center>
+    </font>
+    <font color="black" size="5">
+        <center>
+            Qual é o nosso objetivo ?
+            <br>
+            O principal objetivo é promover conhecimento e reflexão, despertando o olhar crítico, do maior número de servidores possível, sobre a importância da prevenção de acidentes, combate ao adoecimento, segurança e qualidade de vida no local de trabalho e fora dele.
+        </center>
+    </font>
+    <center><a href="index2.html">Confira as prevenções!</a></center>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pagina 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#F0FFF0">
+    <font color="black" size="7">
+        <center>
+           Como evitar acidentes de trabalho:
+        </center>
+    </font>
+    <font color="black" size="5">
+       
+        – Utilizar os Equipamentos de Proteção Individual (EPI);
+        <br>
+        – Manter áreas de circulação desobstruídas;
+        <br>
+        – Desobstruir o acesso aos equipamentos de emergência (macas, extintores, etc.);
+        <br>
+        – Informar ao superior imediato sobre a ocorrência de incidentes para que o problema seja corrigido e futuros acidentes evitados;
+        <br>
+        – Executar atividades de risco somente se estiver habilitado;
+        <br>
+        – Não improvisar ferramentas;
+        <br>
+        – Evitar fazer brincadeiras durante as atividades de trabalho que exijam foco total, tanto seu quanto dos colegas;
+        <br>
+        – Orientar os novos colaboradores sobre os riscos das atividades;
+        <br>
+        – Ter cuidado com tapetes em áreas de circulação;
+        <br>
+        – Não retirar os Equipamentos de Proteção Coletiva das máquinas e equipamentos;
+        <br>
+        – Não fumar em locais proibidos;
+        <br>
+        – Evitar a pressa para não se expor a risco de maior nível;
+        <br>
+        – Conferir máquinas ou equipamentos de trabalho antes de iniciar as atividades;
+        <br>
+        – Ao sentar-se, verificar a firmeza e a posição das cadeiras;
+        <br>
+        – Não deixar objetos caídos no chão.
+        
+    </font>
+
+    <font color="black" size="7">
+        <center>
+           O que são EPIs ?
+        </center>
+    </font>
+    <font color="black" size="5">
+        <center>
+            EPI significa Equipamento de Proteção Individual. São equipamentos e acessórios desenvolvidos para proteger uma parte do corpo ou o indivíduo todo contra riscos específicos.
+        </center>
+    </font>
+    <font color="black" size="6">
+        <center>
+           Exemplo de EPIs para a industria:
+        </center>
+    </font>
+    <center>
+    <img src="epis.png" width="20%">
+    </center>
+</body>
+</html>
