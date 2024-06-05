@@ -1,0 +1,119 @@
+pagina 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#32CD32">
+    <font color="black" size="6">
+        <center>
+            SEMANA DO MEIO AMBIENTE
+        </center>
+    </font>
+    <center>
+        <img src="1-1.png" width="50%">
+    </center>
+    <center><a href="index2.html" style="color: black;">O que é meio ambiente ?</a></center>
+    <br>
+    <center><a href="index3.html" style="color: black;">Qual a sua importância ?</a></center>
+    <br> 
+    <center><a href="index4.html" style="color: black;">Como evitar o desgaste do meio ambiente ?</a></center>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pagina 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#32CD32">
+    <font color="black" size="6">
+        <center>
+            O QUE É MEIO AMBIENTE ?
+        </center>
+    </font>
+    <br>
+    <font color="black" size="5">
+        <center>
+            O meio ambiente refere-se ao conjunto de elementos físicos, químicos, biológicos e sociais que cercam os seres vivos em seu habitat. Isso inclui o ar, a água, o solo, os organismos vivos, bem como os sistemas ecológicos e as interações entre eles. O meio ambiente é fundamental para a sobrevivência e o bem-estar de todas as formas de vida na Terra, fornecendo recursos naturais essenciais, regulando o clima e oferecendo serviços ecossistêmicos vitais. A proteção e a conservação do meio ambiente são cruciais para garantir a sustentabilidade e a qualidade de vida das gerações presentes e futuras.
+        </center>
+    </font>
+    <center>
+        <img src="meioambiente2.png" width="40%">
+    </center>
+    <center><a href="index1.html" style="color: black;">Volte ao início!</a></center>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pagina 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#32CD32">
+    <font color="black" size="6">
+        <center>
+            QUAL A SUA IMPORTÂNCIA ?
+        </center>
+    </font>
+    <br>
+    <font color="black" size="5">
+        <center>
+            O meio ambiente é crucial para a vida na Terra, fornecendo recursos essenciais, regulando o clima, sustentando a biodiversidade e contribuindo para o bem-estar humano e econômico. Sua importância é evidente na sustentabilidade da vida, na regulação climática, na biodiversidade, na economia, no bem-estar humano e na herança cultural. Portanto, proteger e conservar o meio ambiente é vital para garantir um futuro sustentável para todos.
+        </center>
+    </font>
+    <br>
+    <center>
+        <img src="meioambiente3.png" width="40%">
+    </center>
+    <center><a href="index1.html" style="color: black;">Volte ao início!</a></center>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pagina 4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#32CD32">
+    <font color="black" size="6">
+        <center>
+            COMO EVITAR O DESGASTE DO MEIO AMBIENTE ?
+        </center>
+    </font>
+    <font color="black" size="5">
+        <center>
+            1. Economizar água
+            <br>
+            2. Evite o consumo exagerado de energia
+            <br>
+            3. Separar os lixos orgânicos e recicláveis
+            <br>
+            4. Diminuir o uso de automóveis
+            <br>
+            5. Consumir apenas o necessário e evitar compras compulsivas
+            <br>
+            6. Utilizar produtos ecológicos e biodegradáveis
+            <br>
+            7. Não jogar lixos nas ruas
+            <br>
+            O uso consciente dos recursos naturais, a conscientização das gerações futuras sobre a preservação ambiental e a criação de leis que garantam a preservação do meio ambiente são as principais medidas para diminuir o impacto ambiental. Como todos os desafios que encontramos, a conscientização deve começar do indivíduo e um a um partir para a sociedade. O mundo em que vivemos é repleto de coisas boas, precisamos saber aproveitar tudo o que nos é oferecido de maneira digna para criar equilíbrio entre natureza e ser humano.  
+        </center>
+    </font>
+    <center>
+        <img src="meioambiente4.png" width="30%">
+    </center>
+    <center><a href="index1.html" style="color: black;">Volte ao início!</a></center>
+</body>
+</html>
