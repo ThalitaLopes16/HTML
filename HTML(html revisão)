@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#F0F8FF">
+   <center>
+        <font color="#00008B" size="7">
+         HTML- REVISÃO
+        </font>
+   
+   <br><br>
+
+    <table border="1" width="600">
+       <tr bgcolor="#B0E0E6">
+          <td wigth="150" align="center"><b>VANTAGENS</b></td>
+          <td align="center"><b>DESVANTAGENS</b></td>
+          <tr>
+          <td>Liberdade do uso da internet</td>
+          <td>Dificuldade do Arduino</td>
+          </tr>
+          <tr>
+          <td>Comunicação com os professores</td>
+          <td>Falta de cooperação, de alguns alunos, com os professores</td>
+          </tr>
+          <tr>
+          <td>Cooperação por parte dos professores</td>
+
+          <tr>
+            <td>Atividades com o Java Script e HTML</td>
+
+          </tr>
+            <tr>
+                <td>Bom convívio entre os professores</td>
+            </tr>
+
+          </tr>
+       </tr>
+    </table>
+   </center> 
+   <br>
+   <br>
+   <br> 
+   <br>
+   <br>
+   <br> 
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br> 
+   <br>
+   <br>
+   <br>  
+   <center>
+   <font color="#00008B" size="3">
+      Maria Eduarda R. Brito
+      <br>
+      Thalita Lopes Ferreira 
+     </font>
+   </center>
+</body>
+</html>
