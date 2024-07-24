@@ -1,0 +1,64 @@
+Atividade com imagens
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <table border="1" width="600">
+        <tr bgcolor="#B0E0E6">
+           <td align="center"><b>MINHAS FERIAS</b></td>
+           <tr>
+           <td><center><img src="ACADEMIA.png"  width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="ALERGIA.webp"  width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="CELULAR.jpg" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="GALINHA.jpg"  width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="MUSICA.jpg" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="PORCO.jpg" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="SONO.jpg" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="UNHA.webp" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="VACA.jpg" width='40%'></center></td>
+           </tr>
+           <tr>
+           <td><center><img src="VIAGEM.webp" width='40%'></center></td>
+           </tr>
+        
+     </table>
+    </center>
+ </body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Atividade co  alert
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        alert("BOM DIA/VAMOS COMEÇAR O 2° SEM")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
